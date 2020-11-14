@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    color: #ffffff;
+    width: 375px;
+    overflow-x: hidden;
+}
+
+#logo {
+width: 120px;
+margin: 40px
+}
+
+body {
+    
+    background-image: url(/images/bg-mobile.svg);
+    background-color: hsl(257, 40%, 49%);
+    background-repeat: no-repeat;
+}
+
+.heading {
+    width: 80%;
+    font-family: 'Poppins', sans-serif;
+ position: absolute;
+ top: 50%;
+ left: 10%;
+ margin-top: 50px;
+ margin-bottom: 8em;
+ text-align: center;
+
+}
+.heading h1 {
+    font-weight: 700;
+    font-size: 1.5em;
+   
+}
+
+.heading p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: normal;
+  
+   
+}
+.mockup {
+    width: 80%;
+    max-height: 200px;
+    position: absolute;
+    top: 25%;
+    left: 10%;
+}
+
+.regbutton {
+    font-size: 1em;
+    padding: 10px 65px;
+    color: hsl(257, 40%, 49%);
+    font-weight: 400;
+    border: 0;
+    background: white;
+    box-shadow: 1px 0px 10px rgb(24, 24, 24);
+    border-radius: 30px;
+    
+   
+}
+.regbutton:hover{
+    background: hsl(300, 69%, 71%);
+    color:white;
+}
+
+
+
+.social {
+  position: absolute;
+  top:90%;
+  width: 80%;
+  left:10%;
+    text-align: center;
+    margin-top: 90px;
+  
+   
+}
+
+
+.social button{
+    font-size: 10pt;
+    height: 50px; /*setting height and width instead of padding kepth the button from becoming oblong on the twitter icon*/
+    width: 50px;
+    border: solid white 1px;
+    margin: 5px;
+    color: white;
+    background: none;
+    box-shadow:none;
+    border-radius: 50%;
+    
+}
+.social button:hover{
+    border: solid hsl(300, 69%, 71%) 1px;
+    color:  hsl(300, 69%, 71%);
+}
+
+footer {
+    position: absolute;
+    width: 80%;
+    top: 110%;
+    left: 10%;
+   
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
