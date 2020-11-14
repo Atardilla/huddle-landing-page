@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+
+
+html,
+body {
+    margin: 0;
+    color: #ffffff;
+    /* set margin to 0 */
+}
+
+#logo {
+    margin: 67px;
+    height: 50px;
+}
+
+body {
+    width: 1440px;
+    background-image: url(/images/bg-desktop.svg);
+    background-repeat: no-repeat;
+    background-color: hsl(257, 40%, 49%);
+ 
+}
+
+content:after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.heading {
+    float: right;
+    width: 36%;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 50px;
+    margin-right: 100px;
+}
+
+.mockup {
+    margin-left: 50px;
+}
+
+.regbutton {
+    font-size: 14pt;
+    padding: 20px 65px;
+    color: hsl(257, 40%, 49%);
+    font-weight: 400;
+    border: 0;
+    background: white;
+    box-shadow: 1px 0px 10px rgb(24, 24, 24);
+    border-radius: 30px;
+}
+.regbutton:hover{
+    background: hsl(300, 69%, 71%);
+    color:white;
+}
+
+.heading h1 {
+    font-weight: 700;
+    width: 70%;
+}
+
+.heading p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: large;
+}
+
+.social {
+  
+    text-align: right;
+    margin-right: 90px;
+    padding-bottom: 50px;
+    
+}
+
+
+.social button{
+    font-size: 20pt;
+    height: 50px; /*setting height and width instead of padding kepth the button from becoming oblong on the twitter icon*/
+    width: 50px;
+    border: solid white 1px;
+    margin: 5px;
+    color: white;
+    background: none;
+    box-shadow:none;
+    border-radius: 50%;
+}
+.social button:hover{
+    border: solid hsl(300, 69%, 71%) 1px;
+    color:  hsl(300, 69%, 71%);
+}
+
+footer {
+    position: relative;
+    bottom: 0;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
