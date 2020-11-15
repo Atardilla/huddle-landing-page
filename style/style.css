@@ -17,14 +17,32 @@ body{
     background-repeat: no-repeat;
 }
 
-a{
+.footer a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    border-radius: 50%;
+    border: 1px solid white;
+    height: 40px;
+    margin: 10px;
+}
+
+
+ion-icon{
+    text-align: center;
+    font-size: 30px;
+    color: white;
+}
+
+.register-button a{
     text-decoration: none;
     color: #674bb1;
     font-family: 'Poppins', sans-serif;
     align-self: center;
     font-size: 18px;
     font-weight: 400;
-    text-shadow: 1px 1px 1px black;
+    margin-bottom: 5px;
 }
 
 img{
@@ -89,7 +107,18 @@ p{
     height: 56px;
     display: flex;
     justify-content: center;
+    box-shadow: 2px 3px 10px #0000009c
 }
+
+.icons{
+    float: right;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 600px;
+    margin: 1px 100px 100px 1px;
+}
+
 
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
