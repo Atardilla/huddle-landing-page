@@ -1,2 +1,95 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+border: 1px solid transparent;
+    
+}
+
+
+
+
+body{
+    width: 1440px;
+    background:url(../images/bg-desktop.svg);
+    background-color: #674bb1;
+    background-repeat: no-repeat;
+}
+
+a{
+    text-decoration: none;
+    color: #674bb1;
+    font-family: 'Poppins', sans-serif;
+    align-self: center;
+    font-size: 18px;
+    font-weight: 400;
+    text-shadow: 1px 1px 1px black;
+}
+
+img{
+    width: 100%;
+    height: auto;
+}
+
+header{
+    height: 185px;
+    display: flex;
+    align-items:center;
+    padding-left: 80px;
+}
+
+header .logo{
+    width: 215px;
+    height: auto;
+    margin-top: -28px;
+    margin-left: -15px;
+}
+
+
+h2{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
+    font-size: 39px;
+    margin-top: -10px;
+    margin-left: 5px;
+    letter-spacing: 0.25px;
+}
+
+p{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    margin-top: 19px;
+    margin-left: 5px;
+    line-height: 27px;
+}
+
+.main{
+    display: flex;
+    align-items: flex-start;
+    padding: 0 0 0 70px;
+}
+
+.main .figure{
+    width: 706px;
+}
+
+.main .article{
+    width: 520px;
+    padding: 55px 90px 0 50px;
+    color: white;   
+}
+
+.main .register-button{
+    width: 200px;
+    background: white;
+    border-radius: 30px;
+    margin: 22px 0 0 3px;
+    height: 56px;
+    display: flex;
+    justify-content: center;
+}
+
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
