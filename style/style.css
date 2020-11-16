@@ -146,6 +146,48 @@ i:hover{
     cursor: pointer;
 }
 
+@media (max-width: 1360px){
+   body{
+       width: auto;
+   }
+   .header{
+       margin-left: 0px;
+   }
+   .main{
+       padding: 0;
+   }
+    .main .figure{
+       width: 30%;
+   }
+   .main .article{
+       width: 70%;
+       padding: 0px;
+   }
+}
+
+@media (max-width: 680px){
+    main{
+        flex-direction: column;
+    }
+
+    .main .figure{
+        margin: auto;
+        width: 100%;
+    }
+    .main .article{
+        width: 100%;
+    }
+
+    .register-button a{
+        margin:auto;
+    }
+    .footer{
+        justify-content: space-around;
+    }
+    .icons{
+        margin: 0px;
+    }
+}
 
 
 
