@@ -17,33 +17,8 @@ body{
     background-repeat: no-repeat;
 }
 
-.footer a{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 40px;
-    border-radius: 50%;
-    border: 1px solid white;
-    height: 40px;
-    margin: 10px;
-}
 
 
-ion-icon{
-    text-align: center;
-    font-size: 30px;
-    color: white;
-}
-
-.register-button a{
-    text-decoration: none;
-    color: #674bb1;
-    font-family: 'Poppins', sans-serif;
-    align-self: center;
-    font-size: 18px;
-    font-weight: 400;
-    margin-bottom: 5px;
-}
 
 img{
     width: 100%;
@@ -99,7 +74,7 @@ p{
     color: white;   
 }
 
-.main .register-button{
+/*.main .register-button{
     width: 200px;
     background: white;
     border-radius: 30px;
@@ -108,17 +83,72 @@ p{
     display: flex;
     justify-content: center;
     box-shadow: 2px 3px 10px #0000009c
+}*/
+
+.register-button a{
+    display: block;
+    text-align: center;
+    padding: 12px 0 0 0;
+    margin: 22px 0 5px 3px;
+    width: 197px;
+    height: 42px;
+    background: white;
+    border-radius: 30px;
+    box-shadow: 2px 3px 10px #0000009c;
+    color: #674bb1;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+
+}
+
+.register-button a:hover{
+    background-color:  hsl(300, 69%, 71%);
+    color: white;
+    cursor: pointer;
+
+}
+
+
+
+.footer{
+    display: flex;
+    justify-content: flex-end;
 }
 
 .icons{
-    float: right;
+    margin: 8px 72px 0 0;
     display: flex;
     justify-content: flex-end;
-    align-items: center;
-    width: 600px;
-    margin: 1px 100px 100px 1px;
 }
 
 
-.attribution { font-size: 11px; text-align: center; }
-.attribution a { color: hsl(228, 45%, 44%); }
+li{
+    list-style: none;
+}
+
+i{
+    text-align: center;
+    width: 38px;
+    border-radius: 50%;
+    border: 1px solid white;
+    height: 38px;
+    margin: 8px;
+    line-height: 2 !important;
+    color: white;
+    font-size: 20px;
+}
+
+i:hover{
+    border-color: hsl(300, 69%, 71%);
+    color: hsl(300, 69%, 71%);
+    cursor: pointer;
+}
+
+
+
+
+.attribution { background-color: thistle ;
+    font-size: 11px; text-align: center; }
+.attribution a { font-size: 11px; color: hsl(290, 100%, 18%); }
